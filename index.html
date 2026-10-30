@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerência de Monitoramento de Contratos de Gestão - Links Oficiais</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#0284c7',
+                            600: '#0369a1',
+                            700: '#075985',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Inline SVG Favicon (Contract & Shield Motif) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230284c7'><path d='M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z'/></svg>">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col justify-between font-sans selection:bg-sky-500 selection:text-white">
+
+    <!-- Official Government Status Bar -->
+    <div class="bg-slate-900 border-b border-slate-800 text-slate-300 text-xs py-2 px-4 text-center flex items-center justify-center gap-2 sticky top-0 z-50">
+        <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="font-medium text-slate-300">Secretaria Executiva de RedeMédia e Alta Complexidade • Sistema de Gestão de OSS</span>
+    </div>
+
+    <!-- Main Content Container -->
+    <main class="w-full max-w-2xl mx-auto px-4 py-8 flex-grow flex flex-col items-center">
+
+        <!-- Institutional Profile Header -->
+        <div class="w-full text-center mb-6">
+            <!-- Institutional Logo -->
+            <div class="relative w-28 h-28 mx-auto mb-4 rounded-3xl p-1 bg-gradient-to-tr from-sky-500 via-teal-400 to-blue-600 shadow-xl flex items-center justify-center">
+                <div class="w-full h-full bg-slate-900 rounded-[22px] flex items-center justify-center p-3">
+                    <svg viewBox="0 0 24 24" class="w-14 h-14 text-sky-400" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <!-- Contract Document with Shield / Metric Chart Icon -->
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <path d="M9 15l2 2 4-4" stroke-width="2" class="text-emerald-400" stroke="currentColor"></path>
+                        <path d="M8 12h3M8 9h2"></path>
+                    </svg>
+                </div>
+                <!-- Verified Badge -->
+                <div class="absolute -bottom-1 -right-1 bg-sky-500 text-slate-950 rounded-full p-1.5 shadow-lg border-2 border-slate-950" title="Setor Oficial Verificado">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Header Titles -->
+            <!-- <h1 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white mb-1">
+                GMCG
+            </h1> -->
+            <h2 class="text-sky-400 text-xs sm:text-sm font-semibold uppercase tracking-wider mb-3">
+                Gerência de Monitoramento de Contratos de Gestão
+            </h2>
+            <p class="text-slate-400 text-xs sm:text-sm max-w-lg mx-auto leading-relaxed">
+                Central oficial de serviços, prestação de contas, indicadores de desempenho, legislação e auditoria dos contratos de gestão das organizações sociais de saúde.
+            </p>
+        </div>
+
+        <!-- Quick Share & Info Buttons -->
+        <div class="w-full flex items-center justify-between gap-3 mb-6">
+            <button onclick="sharePage()" class="flex-1 py-2.5 px-4 bg-slate-900 hover:bg-slate-800 border border-slate-800 hover:border-sky-500/50 rounded-xl text-xs font-medium text-slate-300 transition-all flex items-center justify-center gap-2 shadow-sm">
+                <svg class="w-4 h-4 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path></svg>
+                Compartilhar Portal
+            </button>
+            <button onclick="openModal('Atendimento a Gerência', 'Para suporte sobre prestação de contas de OSS e sistemas de monitoramento:<br><br><b>E-mail:</b> gmcg.saude@municipio.gov.br<br><b>Telefone:</b> (81) 9.XXXX-XXXX<br><b>Horário:</b> Segunda a Sexta, das 08h às 17h')" class="flex-1 py-2.5 px-4 bg-slate-900 hover:bg-slate-800 border border-slate-800 hover:border-sky-500/50 rounded-xl text-xs font-medium text-slate-300 transition-all flex items-center justify-center gap-2 shadow-sm">
+                <svg class="w-4 h-4 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                Fale com a Gerência
+            </button>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="w-full relative mb-4">
+            <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            </span>
+            <input type="text" id="searchInput" placeholder="Pesquisar relatório, edital, prestação de contas, OSS..." class="w-full pl-10 pr-4 py-3 bg-slate-900/90 border border-slate-800 rounded-xl text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 transition-all shadow-inner">
+            <span id="searchCount" class="absolute inset-y-0 right-0 pr-3.5 flex items-center text-xs text-slate-500"></span>
+        </div>
+
+        <!-- Category Tag Filter Pills (geradas por js/app.js a partir de CATEGORIES) -->
+        <div id="categoryPills" class="w-full flex items-center gap-2 overflow-x-auto pb-2 mb-4 scrollbar-none text-xs"></div>
+
+        <!-- Links Container -->
+        <!-- Links Container (cards gerados por js/app.js a partir de js/data.js) -->
+        <div id="linksContainer" class="w-full flex flex-col gap-3.5"></div>
+
+        <!-- No Results Found State -->
+        <div id="noResults" class="hidden text-center py-12 text-slate-500 text-sm">
+            Nenhum documento ou recurso encontrado para a busca realizada.
+        </div>
+
+    </main>
+
+    <!-- Institutional Footer -->
+    <footer class="w-full bg-slate-900 border-t border-slate-800 mt-12 py-8 px-4 text-center">
+        <div class="max-w-xl mx-auto flex flex-col items-center">
+            
+            <p class="text-xs text-slate-300 font-semibold mb-1">
+                Gerência de Monitoramento de Contratos de Gestão - GMCG
+            </p>
+            <p class="text-[11px] text-slate-500 mb-4">
+                Secretaria Executiva de RedeMédia e Alta Complexidade - SERMAC
+            </p>
+
+            <div class="flex items-center gap-4 text-xs text-slate-400">
+                <a href="#transparencia" onclick="event.preventDefault(); openModal('Transparência Pública', 'A GMCG assegura o pleno cumprimento da Lei de Acesso à Informação (LAI - Lei nº 12.527/2011).')" class="hover:text-sky-400 transition-colors">LAI & Transparência</a>
+                <span>•</span>
+                <a href="#lgpd" onclick="event.preventDefault(); openModal('LGPD', 'Tratamento de dados institucionais em estrita conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018).')" class="hover:text-sky-400 transition-colors">LGPD</a>
+                <span>•</span>
+                <a href="#suporte" onclick="event.preventDefault(); openModal('Suporte Técnico', 'Para dificuldades de acesso aos sistemas PACTO-Web, contate o desenvolvedor pelo e-mail abaixo:<br><b>E-mail:</b> ossgestaodigital@gmail.com<br><b>Horário:</b> Segunda a Sexta, das 08h às 17h')" class="hover:text-sky-400 transition-colors">Suporte Técnico</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Detail Modal -->
+    <div id="serviceModal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden opacity-0 transition-opacity duration-300">
+        <div class="bg-slate-900 border border-slate-800 rounded-3xl max-w-md w-full p-6 shadow-2xl transform scale-95 transition-transform duration-300" id="modalContentBox">
+            <div class="flex items-center justify-between mb-4">
+                <div class="w-10 h-10 rounded-xl bg-sky-500/10 border border-sky-500/20 flex items-center justify-center text-sky-400">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+                <button onclick="closeModal()" class="text-slate-400 hover:text-white p-2 rounded-xl hover:bg-slate-800 transition-colors">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            <h3 id="modalTitle" class="text-lg font-bold text-white mb-2">Título</h3>
+            <div id="modalDescription" class="text-slate-300 text-sm leading-relaxed mb-6">Descrição...</div>
+            <div class="flex gap-3">
+                <button onclick="closeModal()" class="flex-1 py-2.5 px-4 bg-slate-800 hover:bg-slate-700 rounded-xl text-xs font-semibold text-slate-200 transition-colors">Fechar</button>
+                <button onclick="simulateAccess()" class="flex-1 py-2.5 px-4 bg-sky-600 hover:bg-sky-500 rounded-xl text-xs font-semibold text-white transition-colors shadow-lg shadow-sky-600/20">Acessar Recurso</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div id="toastContainer" class="fixed bottom-6 right-6 z-50 pointer-events-none"></div>
+
+    <script src="js/theme.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
