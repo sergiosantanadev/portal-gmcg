@@ -31,7 +31,7 @@ const CARDS = [
     title: 'Plataforma de Acompanhamento Contratual e Transparência Orçamentária (PACTO-Web)',
     badge: 'Sistema',
     description: 'Plataforma de inserção de contratos das Organizações Sociais de Saúde e Transparência Orçamentária',
-    url: 'https://script.google.com/macros/s/AKfycbz40imhA3JT1LOg2ztSxRnhY-dZQXq9JV9nUKXLIx75VqaR3mig01ubplCgUOR8_em1xg/exec',
+    url: 'https://script.google.com/macros/s/AKfycbyB6Sjjt7k7gCneEWQSPJAIOlvKZkabb3w-mFmbwYflueCot-Qw6dNCs38EU6_borOf/exec',
     modalTitle: 'Sistema de Monitoramento de Contratos (PACTO-Web)',
     modalText: 'Plataforma restrita para envio e validação das metas assistenciais, indicadores de qualidade e relatórios mensais pelas OSS parceiras.',
   },
